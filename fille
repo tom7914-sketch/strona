@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parenting a Child with Asperger's</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.7;
+            color: #5a4a42;
+            background-color: #fff5f0;
+        }
+        h1, h2 {
+            font-family: Georgia, serif;
+            color: #4a3832;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .hero {
+            background: linear-gradient(135deg, #ffe8dc 0%, #ffd4c4 100%);
+            padding: 60px 0;
+            text-align: center;
+        }
+        .book-cover {
+            max-width: 300px;
+            width: 100%;
+            margin: 0 auto 30px;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .subheadline {
+            font-size: 1.2rem;
+            color: #8a6b60;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: #e89b84;
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #d88873;
+        }
+        section {
+            padding: 60px 0;
+        }
+        .validation {
+            background: linear-gradient(to bottom, #fff5f0 0%, #ffe8dc 100%);
+        }
+        .validation p {
+            font-size: 1.1rem;
+            max-width: 650px;
+            margin: 0 auto 20px;
+        }
+        .image-text {
+            background: white;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        .image-text img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+        }
+        .text-content {
+            flex: 1;
+        }
+        .testimonials {
+            background: linear-gradient(to bottom, #ffe8dc 0%, #ffd4c4 100%);
+        }
+        .testimonial {
+            background: white;
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 700px;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        }
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+        .testimonial-author {
+            font-weight: bold;
+            color: #4a3832;
+        }
+        .price {
+            font-size: 2.5rem;
+            font-family: Georgia, serif;
+            color: #4a3832;
+            margin: 20px 0;
+        }
+        footer {
+            background: #4a3832;
+            color: #ffd4c4;
+            padding: 40px 0;
+            text-align: center;
+        }
+        footer a {
+            color: #e89b84;
+            text-decoration: none;
+        }
+        @media (max-width: 768px) {
+            .image-text {
+                flex-direction: column;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <img src="https://i.postimg.cc/y6yZ6ygJ/Projekt-bez-nazwy-31.png" alt="Book Cover" class="book-cover">
+            <h1>When your child keeps saying "my stomach hurts" — and no one believes you</h1>
+            <p class="subheadline">A heartfelt guide for mothers raising children with Asperger's who were told "they're just faking it."</p>
+            <p>You're not imagining it. And you're not alone.</p>
+            <a href="#buy" class="cta-button">Read the Guide</a>
+        </div>
+    </section>
+
+    <section class="validation">
+        <div class="container">
+            <p>You've been dismissed.</p>
+            <p>Told you're overreacting. That you're too anxious.</p>
+            <p>You started doubting yourself. Then doubting your own child.</p>
+            <p><em>The guilt sits heavy. The shame even heavier.</em></p>
+            <p>Years passed without answers.</p>
+            <p>And still — no one listened.</p>
+        </div>
+    </section>
+
+    <div class="image-text">
+        <img src="https://i.postimg.cc/5N39FPbD/Chat-GPT-Image-18-sty-2026-11-46-13.png" alt="Mother and child">
+        <div class="text-content">
+            <h2>You Know Your Child Best</h2>
+            <p>No doctor, no teacher, no well-meaning relative knows your child like you do. You've seen the patterns. You've felt the pain in their voice when they say "I can't."</p>
+            <p>Trust that intuition. It's been right all along.</p>
+        </div>
+    </div>
+
+    <section style="background: white; padding: 60px 20px;">
+        <div class="container">
+            <h2 style="text-align: center;">This book was written by a mother — not a system</h2>
+            <p>For years, the doctors said nothing was wrong.</p>
+            <p>The stomach pain was dismissed. The fear was minimized. The struggles at school were blamed on laziness or attitude.</p>
+            <p>But a mother knows.</p>
+            <div style="background: rgba(232, 155, 132, 0.15); padding: 30px; border-radius: 8px; margin: 30px 0; border-left: 4px solid #e89b84;">
+                <p><em>The diagnosis came late. Too late to undo the years of misunderstanding. But not too late to finally see clearly — and to stop the cycle of pushing, blaming, and breaking.</em></p>
+            </div>
+            <p>This book exists because no one helped sooner.</p>
+        </div>
+    </section>
+
+    <div class="image-text" style="flex-direction: row-reverse;">
+        <img src="https://i.postimg.cc/hPpgGf0n/Chat-GPT-Image-18-sty-2026-11-42-29.png" alt="Understanding">
+        <div class="text-content">
+            <h2>Understanding Changes Everything</h2>
+            <p>When you finally understand why your child reacts the way they do, the guilt lifts. The frustration transforms into compassion.</p>
+            <p>This isn't about labels. It's about finally having the tools to help your child feel safe, understood, and loved for exactly who they are.</p>
+        </div>
+    </div>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 style="text-align: center;">What Mothers Are Saying</h2>
+            
+            <div class="testimonial">
+                <p class="testimonial-text">"I cried reading this. For the first time, someone understood what we've been through. I stopped blaming myself and started truly seeing my son. This book gave me permission to trust my instincts again."</p>
+                <p class="testimonial-author">Jennifer M. - Ohio</p>
+            </div>
+
+            <div class="testimonial">
+                <p class="testimonial-text">"The stomach pain chapter... it was like reading our story. Seven years of doctors saying nothing was wrong. This book explained it so clearly. I wish I had this when my daughter was younger, but I'm grateful to have it now."</p>
+                <p class="testimonial-author">Rachel T. - California</p>
+            </div>
+
+            <div class="testimonial">
+                <p class="testimonial-text">"Finally, a book written by someone who gets it. Not clinical, not distant — just honest and heartfelt. It helped me understand my child's meltdowns aren't manipulation. They're communication. Everything changed after reading this."</p>
+                <p class="testimonial-author">Amanda K. - Texas</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="buy" style="background: linear-gradient(135deg, #ffd4c4 0%, #ffbfa8 100%); text-align: center;">
+        <div class="container">
+            <h2>You don't need to have everything figured out.</h2>
+            <p class="price">$15</p>
+            <p>One-time purchase. Instant download.</p>
+            <a href="mailto:dingo.sprzedaz@gmail.com?subject=E-book Purchase" class="cta-button">Get the E-book</a>
+            <p style="margin-top: 20px; font-style: italic; color: #8a6b60;">Read at your own pace. Come back to it whenever you need.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p style="font-size: 1.3rem; margin-bottom: 10px;">Sophie Willow</p>
+            <p>Contact: <a href="mailto:dingo.sprzedaz@gmail.com">dingo.sprzedaz@gmail.com</a></p>
+            <p style="margin-top: 20px; font-size: 0.9rem; color: #d8b8a8;">This guide does not replace medical diagnosis. It offers understanding and support.</p>
+        </div>
+    </footer>
+</body>
+</html>
